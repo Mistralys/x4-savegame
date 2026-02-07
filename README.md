@@ -2,10 +2,16 @@
 
 X4 savegame documentation and data files for XML structure reference.
 
-## Savegames
+## Bundled Savegames
 
 - [X4 v8 - Scientist Start](saves/start-scientist-v8.xml.gz) - Game start - 369Mb XML
 - [X4 v8 - Creative Advanced](saves/advanced-creative-v8.xml.gz) - 2 days play time - 704Mb XML
+
+For each savegame, the extracted XML fragments (as sliced by the savegame parser) 
+are included in a subfolder, in prettified XML format. This is a great resource to
+view the structure of the XML.
+
+> NOTE: To keep the project small, the XML files are zipped. 
 
 ## Tools
 
