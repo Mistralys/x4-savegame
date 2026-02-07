@@ -12,5 +12,17 @@
     }
   ],
   "require": {
+    "phpunit/phpunit": ">=12.5",
+    "php": ">=8.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "X4\\Savegame\\": "src/X4/Savegame/",
+      "Command\\": "src/Command/"
+    }
+  },
+  "scripts": {
+    "extract-ancestor-path": "Command\\ExtractAncestorPath::main",
+    "test": "phpunit"
   }
 }

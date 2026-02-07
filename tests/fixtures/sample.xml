@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <level1 attr1="value1">
+    <level2 attr2="value2" attr3="value3">
+      <level3>
+        <level4 id="target">
+        </level4>
+      </level3>
+    </level2>
+    <sibling />
+  </level1>
+  <another-root-child>
+    <nested />
+  </another-root-child>
+</root>
+
