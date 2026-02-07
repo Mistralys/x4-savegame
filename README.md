@@ -13,6 +13,34 @@ view the structure of the XML.
 
 > NOTE: To keep the project small, the XML files are zipped. 
 
+## Locating Nodes in the XML
+
+For XML parsing tasks, you will often be looking for a specific node, and
+need to find out how exactly it is nested in the overall document structure.
+The bundled tool to extract tag ancestors is your friend in this case:
+
+1. Identify the file and line number of the target XML tag.
+2. Run the tool (see [Extractor Usage](#extractor-usage) below).
+3. Use the generated file to view the tag's access path.
+
+> NOTE: An example of this can be seen in [player locations](/docs/player-locations.md).
+
+## Adding Savegames
+
+1. Add the gz save file.
+2. Commit to Git.
+
+To also add the XML fragment files:
+
+1. Switch to the savegame parser project.
+2. Run `composer update` to load the new save file.
+3. Add the save name in the `extract-test-saves.php` script.
+4. Run the script.
+5. Run the XML indenter on the XML files: `php bin/php/indent-xml.php .\tests\files\test-saves\{SAVE_FOLDER}\XML\ --replace`.
+6. Copy the XML files over here into a folder for the save.
+7. Compress the XML files to a 7z archive.
+8. Commit the archive to Git.
+
 ## Tools
 
 ### Extract Ancestor Path
@@ -30,7 +58,7 @@ First, install Composer dependencies and generate the autoloader:
 composer install
 ```
 
-#### Usage
+#### Extractor Usage
 
 ```bash
 composer extract-ancestor-path -- <xml-file> <line-number> <output-file>
