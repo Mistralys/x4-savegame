@@ -4,4 +4,4 @@ X4 savegame documentation and data files for XML structure reference.
 
 ## Savegames
 
-- [X4 v8 - Scientist Start](saves/start-scientist-v8.gz)
+- [X4 v8 - Scientist Start](saves/start-scientist-v8.xml.gz)
