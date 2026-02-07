@@ -1,2 +1,5 @@
-# x4-savegame
-An example X4 savegame to use as XML structure reference.
+# X4 Savegame
+
+X4 savegame documentation and data files for XML structure reference.
+
+
