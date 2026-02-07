@@ -3,3 +3,4 @@
 /.phpunit.cache/
 /test-output*.xml
 saves/advanced-creative-v8/*.xml
+.idea/copilot.data.migration.ask2agent.xml
