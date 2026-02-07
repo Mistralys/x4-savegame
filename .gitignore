@@ -1,1 +1,4 @@
 /saves/*.xml
+/vendor/
+/.phpunit.cache/
+/test-output*.xml
