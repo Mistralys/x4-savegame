@@ -1,0 +1,26 @@
+{
+  "name": "@mistralys/x4-savegame",
+  "version": "1.0.0",
+  "description": "X4 savegame documentation and data files for XML structure reference",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mistralys/x4-savegame.git"
+  },
+  "homepage": "https://github.com/Mistralys/x4-savegame#readme",
+  "license": "MIT",
+  "keywords": [
+    "x4",
+    "savegame",
+    "documentation",
+    "data",
+    "xml",
+    "reference"
+  ],
+  "files": [
+    "docs/",
+    "saves/",
+    "README.md",
+    "LICENSE"
+  ],
+  "private": false
+}

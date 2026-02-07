@@ -1,0 +1,16 @@
+{
+  "name": "mistralys/x4-savegame",
+  "description": "X4 savegame documentation and data files for XML structure reference",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sebastian Mordziol",
+      "email": "s.mordziol@mistralys.eu",
+      "homepage": "https://mistralys.eu"
+    }
+  ],
+  "require": {
+  }
+}
