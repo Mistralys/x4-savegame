@@ -2,3 +2,4 @@
 /vendor/
 /.phpunit.cache/
 /test-output*.xml
+saves/advanced-creative-v8/*.xml
